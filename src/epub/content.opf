@@ -28,49 +28,70 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Philosophical Works</dc:title>
 		<meta property="file-as" refines="#title">Philosophical Works</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Science--Methodology</dc:subject>
+		<dc:subject id="subject-2">Philosophy</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh85118577</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85100849</meta>
+		<meta property="se:subject">Philosophy</meta>
+		<dc:description id="description">A collection of Descartes’ philosophical works.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
 		<dc:language>en-GB</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<!-- Discourse on the Method-->
+		<dc:source>https://www.gutenberg.org/ebooks/59</dc:source>
+		<dc:source>https://archive.org/details/discourseonmetho00desc_2</dc:source>
+		<!-- Meditations on First Philosophy-->
+		<dc:source>https://en.wikisource.org/wiki/Meditations_on_First_Philosophy</dc:source>
+		<dc:source>https://archive.org/details/methodmeditatio00desc</dc:source>
+		<dc:source>https://archive.org/details/themethodmeditat00descuoft</dc:source>
+		<!-- Selections from the Principles of Philosophy -->
+		<dc:source>https://www.gutenberg.org/ebooks/4391</dc:source>
+		<dc:source>https://archive.org/details/meditationsselec00desc</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOK_WIKI_URL</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rene-descartes_philosophical-works_john-veitch</meta>
 		<dc:creator id="author">René Descartes</dc:creator>
 		<meta property="file-as" refines="#author">Descartes, René</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061201</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">John Veitch</dc:contributor>
 		<meta property="file-as" refines="#translator">Veitch, John</meta>
-		<meta property="se:name.person.full-name" refines="#translator">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/John_Veitch</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/John_Veitch_(poet)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/nr88000869</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Frans Hals</dc:contributor>
+		<meta property="file-as" refines="#artist">Hals, Frans</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Frans_Hals</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n78091972</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Ilana Newby</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Newby, Ilana</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="transcriber-2">Greg Newby</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Newby, Greg</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Steve Harris</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Harris, Steve</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Charles Franks</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Franks, Charles</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">The Online Distributed Proofreading Team</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Online Distributed Proofreading Team, The</meta>
+		<meta property="se:url.homepage" refines="#transcriber-5">https://pgdp.net</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-6">https://en.wikisource.org</meta>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Erin Endrei</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Endrei, Erin</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
