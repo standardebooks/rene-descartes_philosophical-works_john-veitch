@@ -21,3 +21,7 @@ header{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
+[epub|type~="dedication"] p span{
+	font-size: larger;
+}
