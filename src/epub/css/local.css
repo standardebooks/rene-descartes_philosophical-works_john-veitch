@@ -12,10 +12,6 @@ header{
 	text-align: center;
 }
 
-[epub|type~="z3998:salutation"] + p{
-	text-indent: 0;
-}
-
 [epub|type~="z3998:recipient"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
