@@ -13,10 +13,11 @@ footer{
 }
 
 section[epub|type~="dedication"] header{
+	font-variant: all-small-caps;
 	text-align: center;
 }
 
-section[epub|type~="dedication"] header > *{
+section[epub|type~="dedication"] header > p{
 	display: inline-block;
 	margin: auto;
 	margin-top: 3em;
