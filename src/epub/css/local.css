@@ -12,6 +12,17 @@ footer{
 	text-align: right;
 }
 
+section[epub|type~="dedication"] header{
+	text-align: center;
+}
+
+section[epub|type~="dedication"] header > *{
+	display: inline-block;
+	margin: auto;
+	margin-top: 3em;
+	max-width: 80%;
+}
+
 [epub|type~="dedication"] p span{
 	font-size: larger;
 }
@@ -21,3 +32,4 @@ footer{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
