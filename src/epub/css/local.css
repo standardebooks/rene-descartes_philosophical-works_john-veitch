@@ -33,3 +33,7 @@ section[epub|type~="dedication"] header > *{
 	font-variant: small-caps;
 }
 
+section[epub|type~="dedication"],
+section[epub|type~="preface"]{
+	break-after: page;
+}
