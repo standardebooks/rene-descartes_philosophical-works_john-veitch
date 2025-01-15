@@ -35,7 +35,8 @@ section[epub|type~="dedication"] header > p{
 }
 
 section[epub|type~="dedication"],
-section[epub|type~="preface"]{
+section[epub|type~="preface"],
+section[epub|type~="introduction"]{
 	break-after: page;
 }
 
