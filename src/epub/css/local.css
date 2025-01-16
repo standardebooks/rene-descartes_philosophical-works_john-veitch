@@ -4,7 +4,6 @@
 header{
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 footer{
@@ -50,4 +49,8 @@ section[epub|type~="introduction"]{
 
 [epub|type~="bridgehead"] i{
 	font-style: normal;
+}
+
+header [epub|type~="bridgehead"]{
+	font-variant: normal;
 }
