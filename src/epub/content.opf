@@ -35,6 +35,8 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85100849</meta>
 		<meta property="se:subject">Philosophy</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
 		<dc:description id="description">A collection of philosophical works.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/rene-descartes"&gt;René Descartes&lt;/a&gt; is spoken of as the father of modern philosophy, and his seventeenth-century contributions to the discipline as the most significant since Aristotle. While in his lifetime he was primarily known as a mathematician and scientific theorist—in contemporaneous terms a “natural philosopher”—the works of his that we’d today consider to be philosophy are those that continue to command attention. Of these, collected here are the “Discourse on the Method of Rightly Conducting One’s Reason and of Seeking Truth in the Sciences,” the “Meditations on the First Philosophy,” and selections from the “Principles of Philosophy.”&lt;/p&gt;
