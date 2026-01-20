@@ -59,7 +59,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/4391</dc:source>
 		<!-- Meditations and Selections from the Principles of Philosophy Scans-->
 		<dc:source>https://archive.org/details/meditationsselec00desc</dc:source>
-		<meta property="se:word-count">86764</meta>
+		<meta property="se:word-count">86757</meta>
 		<meta property="se:reading-ease.flesch">26.95</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rene-descartes_philosophical-works_john-veitch</meta>
 		<dc:creator id="author">René Descartes</dc:creator>
