@@ -39,7 +39,7 @@ section[epub|type~="introduction"]{
 	break-after: page;
 }
 
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -47,10 +47,10 @@ section[epub|type~="introduction"]{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
+[epub|type~="se:bridgehead"] i{
 	font-style: normal;
 }
 
-header [epub|type~="bridgehead"]{
+header [epub|type~="se:bridgehead"]{
 	font-variant: normal;
 }
