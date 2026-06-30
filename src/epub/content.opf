@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/rene-descartes/philosophical-works/john-veitch</dc:identifier>
 		<dc:date>2025-01-16T20:20:16Z</dc:date>
 		<meta property="dcterms:modified">2025-01-16T20:20:16Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -35,13 +36,17 @@
 		<meta property="term" refines="#subject-1">sh85118577</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85100849</meta>
-		<meta property="se:subject">Philosophy</meta>
+		<meta property="schema:genre">Philosophy</meta>
 		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-1">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-1">Discourse on the Method of Rightly Conducting the Reason</meta>
+		<meta property="schema:hasPart" refines="#collection-1" id="collection-1-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-1-entry-1">Discourse on the Method of Rightly Conducting the Reason</meta>
 		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
-		<meta property="se:title-in-collection" refines="#collection-2">Meditations on First Philosophy</meta>
+		<meta property="schema:hasPart" refines="#collection-2" id="collection-2-entry-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-2-entry-1">Meditations on First Philosophy</meta>
 		<dc:description id="description">A collection of philosophical works.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/rene-descartes"&gt;René Descartes&lt;/a&gt; is spoken of as the father of modern philosophy, and his seventeenth-century contributions to the discipline as the most significant since Aristotle. While in his lifetime he was primarily known as a mathematician and scientific theorist—in contemporaneous terms a “natural philosopher”—the works of his that we’d today consider to be philosophy are those that continue to command attention. Of these, collected here are the “Discourse on the Method of Rightly Conducting One’s Reason and of Seeking Truth in the Sciences,” the “Meditations on the First Philosophy,” and selections from the “Principles of Philosophy.”&lt;/p&gt;
@@ -63,25 +68,27 @@
 		<dc:source>https://www.gutenberg.org/ebooks/4391</dc:source>
 		<!-- Meditations and Selections from the Principles of Philosophy Scans-->
 		<dc:source>https://archive.org/details/meditationsselec00desc</dc:source>
-		<meta property="se:word-count">86757</meta>
-		<meta property="se:reading-ease.flesch">26.95</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/rene-descartes_philosophical-works_john-veitch</meta>
+		<meta property="schema:wordCount">86757</meta>
+		<meta property="schema:educationalLevel">26.95</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/rene-descartes_philosophical-works_john-veitch" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">René Descartes</dc:creator>
 		<meta property="file-as" refines="#author">Descartes, René</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79061201</meta>
+		<link href="https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79061201.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="translator">John Veitch</dc:contributor>
 		<meta property="file-as" refines="#translator">Veitch, John</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/John_Veitch_(poet)</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/nr88000869</meta>
+		<link href="https://en.wikipedia.org/wiki/John_Veitch_(poet)" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/nr88000869.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="artist">Frans Hals</dc:contributor>
 		<meta property="file-as" refines="#artist">Hals, Frans</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Frans_Hals</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n78091972</meta>
+		<link href="https://en.wikipedia.org/wiki/Frans_Hals" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78091972.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Ilana Newby</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Newby, Ilana</meta>
@@ -97,11 +104,11 @@
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-5">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-5">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-5">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-5" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-6">Wikisource</dc:contributor>
 		<meta property="file-as" refines="#transcriber-6">Wikisource</meta>
-		<meta property="se:url.homepage" refines="#transcriber-6">https://en.wikisource.org/</meta>
+		<link href="https://en.wikisource.org/" refines="#transcriber-6" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Erin Endrei</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Endrei, Erin</meta>
@@ -114,7 +121,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
